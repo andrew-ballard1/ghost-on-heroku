@@ -1,6 +1,7 @@
-# Ghost 4.X on Heroku
+# Ghost 4 on Heroku
 
-Ghost is a publishing platform used by OpenAI, Apple, Buffer, and others.
+Ghost is a publishing platform used by OpenAI, Apple, Duolingo, and
+[others](https://ghost.org/customers/).
 
 ### Deploy
 
@@ -59,6 +60,12 @@ the values using the `Heroku CLI` or `Heroku Dashboard`.
 For more information read <a
 href="https://lovekesh.tech/how-to-create-update-and-delete-config-vars-in-the-heroku-app/"
 target="_blank">here</a>
+
+### Updating
+
+When updating Ghost in this package, make sure to bump the version of the
+package to match the version of Ghost for the version migration scripts to run
+properly.
 
 ### Disclaimer
 
