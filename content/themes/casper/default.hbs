@@ -17,11 +17,6 @@
     it should always be the last tag before the closing head tag --}}
     {{ghost_head}}
 
-    {{!-- PWA --}}
-    <link rel="manifest" href="/manifest.webmanifest">
-    <meta name="theme-color" content="#0075FF">
-    <link rel="apple-touch-icon" href="/assets/icons/ghost-4.png">
-
 </head>
 <body class="{{body_class}}">
 <div class="viewport">
@@ -101,15 +96,6 @@ $(document).ready(function () {
     // FitVids - Makes video embeds responsive
     $(".gh-content").fitVids();
 });
-</script>
-
-{{!-- Service Worker for PWA --}}
-<script>
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js');
-    });
-}
 </script>
 
 {{!-- Ghost outputs required functional scripts with this tag - it should always be the last thing before the closing body tag --}}
