@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+mkdir -p content/data \
+	&& bash bin/cloudinary.sh \
+	&& bash bin/aws-s3.sh \
+	&& bash bin/themes.sh \
+	&& bash bin/pwa.sh
