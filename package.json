@@ -1,6 +1,6 @@
 {
   "name": "ghost-v4-on-heroku",
-  "version": "4.32.0",
+  "version": "4.33.0",
   "description": "Deploy latest Ghost v4 on Heroku",
   "keywords": [
     "ghost",
