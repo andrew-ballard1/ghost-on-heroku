@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+update() {
+    version="$1"
+
+    npm install ghost@"$version"
+
+    # Prevent errors like:
+    # > Client request for 4.33 does not match server version 4.32.0.
+    jq ".version = \"$version\"" package.json | sponge package.json
+}
+
+update $@
