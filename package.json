@@ -22,7 +22,7 @@
     "mysql": "^2.18.1"
   },
   "scripts": {
-    "start": "node -e \"require(\"ghost\")\"",
+    "start": "node index.js",
     "postinstall": "bash bin/cloudinary.sh && bash bin/aws-s3.sh && bash bin/themes.sh && bash bin/pwa.sh"
   }
 }
