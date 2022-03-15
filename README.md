@@ -74,6 +74,11 @@ repositories of the previous version of ghost deployment on Heroku.
 
 Base repo: https://github.com/thelovekesh/ghost-v4-on-heroku
 
+### Credits
+
+Thanks to [Lovekesh Kumar](https://github.com/thelovekesh) for preparing and
+regularly updating the original repo!
+
 ### License
 
 Released under the MIT license, just like the Ghost project itself.
