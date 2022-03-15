@@ -10,9 +10,6 @@
   "author": "pk",
   "repository": "https://github.com/kocielnik/ghost-on-heroku",
   "license": "MIT",
-  "engines": {
-    "node": "12.X"
-  },
   "dependencies": {
     "casper": "github:TryGhost/Casper#main",
     "ghost": "^4.39.0",
