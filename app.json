@@ -1,12 +1,12 @@
 {
   "name": "Deploy Ghost V4 on Heroku",
   "description": "Deploy latest Ghost v4 on Heroku",
-  "logo": "https://ghost.org/images/docs/logos/ghost-logo-orb.png",
+  "logo": "https://ghost.org/favicon.ico",
   "scripts": {
     "postdeploy": "bin/init-deployment"
   },
   "success_url": "/ghost",
-  "addons": ["jawsdb", "mailgun", "cloudinary"],
+  "addons": ["jawsdb-maria", "mailgun", "cloudinary"],
   "env": {
     "APP_PUBLIC_URL": {
       "description": "Complete URL of your app including https (You can change it later in Config Vars)",
