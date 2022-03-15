@@ -5,6 +5,9 @@
   "scripts": {
     "postdeploy": "bin/init-deployment"
   },
+  "engines": {
+    "npm": "8.x"
+  },
   "success_url": "/ghost",
   "addons": ["jawsdb", "mailgun", "cloudinary"],
   "env": {
