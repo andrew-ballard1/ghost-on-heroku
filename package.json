@@ -7,8 +7,13 @@
     "ghost v4",
     "heroku"
   ],
-  "author": "pk",
+  "author": "Patryk Kocielnik",
   "repository": "https://github.com/kocielnik/ghost-on-heroku",
+  "contributors": {
+    "name" : "Lovekesh Kumar",
+    "email" : "hi@thelovekesh.com",
+    "url" : "https://thelovekesh.com"
+  },
   "license": "MIT",
   "engines": {
     "node": "16.x"
@@ -17,7 +22,7 @@
     "casper": "github:TryGhost/Casper#main",
     "ghost": "^4.46.0",
     "ghost-storage-adapter-s3": "^2.8.0",
-    "ghost-storage-cloudinary": "^2.1.5",
+    "ghost-storage-cloudinary": "^2.2.1",
     "lyra": "github:TryGhost/lyra#main",
     "mysql": "^2.18.1"
   },
