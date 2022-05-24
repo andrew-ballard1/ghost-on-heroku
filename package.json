@@ -1,6 +1,6 @@
 {
   "name": "ghost-v4-on-heroku",
-  "version": "",
+  "version": "4.46.0",
   "description": "Deploy latest Ghost v4 on Heroku",
   "keywords": [
     "ghost",
@@ -10,9 +10,9 @@
   "author": "Patryk Kocielnik",
   "repository": "https://github.com/kocielnik/ghost-on-heroku",
   "contributors": {
-    "name": "Lovekesh Kumar",
-    "email": "hi@thelovekesh.com",
-    "url": "https://thelovekesh.com"
+    "name" : "Lovekesh Kumar",
+    "email" : "hi@thelovekesh.com",
+    "url" : "https://thelovekesh.com"
   },
   "license": "MIT",
   "engines": {
@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "casper": "github:TryGhost/Casper#main",
-    "ghost": "^4.48.0",
+    "ghost": "^4.46.0",
     "ghost-storage-adapter-s3": "^2.8.0",
     "ghost-storage-cloudinary": "^2.2.1",
     "lyra": "github:TryGhost/lyra#main",
