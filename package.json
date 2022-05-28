@@ -1,6 +1,6 @@
 {
   "name": "ghost-v4-on-heroku",
-  "version": "4.48.0",
+  "version": "5.1.0",
   "description": "Deploy latest Ghost v4 on Heroku",
   "keywords": [
     "ghost",
@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "casper": "github:TryGhost/Casper#main",
-    "ghost": "^4.48.0",
+    "ghost": "^5.1.0",
     "ghost-storage-adapter-s3": "^2.8.0",
     "ghost-storage-cloudinary": "^2.2.1",
     "lyra": "github:TryGhost/lyra#main",
